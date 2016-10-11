@@ -1,0 +1,74 @@
+@import "https://fonts.googleapis.com/css?family=Playfair+Display";
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*html, body {
+	min-height: 100%;
+}*/
+html {
+	width: 1600px;
+	height: 1200px;
+	margin: 0;
+}
+body{
+	font: 300 18px/2.2 "Lato", Arial, sans-serif;
+	color: #171717;
+}
+.ba-container{
+	margin: 100px 130px;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.2);
+}
+.ba-article{
+ 	width: 1400px;
+ 	height: 940px;
+	padding: 140px 138px 140px 121px;
+}
+.ba-title {
+	font: 400 42px/1.5 "Playfair Display", Georgia, serif;
+	color: #171717;
+	margin: 0 0 39px 0;
+}
+article p:first-of-type::first-letter {
+	font-family: 'Playfair Display', Georgia, serif;
+	line-height: 95px;
+	color: #171717;
+	font-size: 110px;
+	font-weight: 400;
+	float: left;
+	margin-right: 25px;
+}
+.ba-bq {
+	font-weight: 300;
+	font-size: 24px;
+	font-style: italic;
+	margin: 0;
+}
+.ba-bq::before {
+	content: open-quote;
+	font-size: 50px;
+	display: inline-block;
+	padding: 0 30px 0 0;
+}
+button {
+	background-color: white;
+	font-size:16px;
+	padding: 12px 80px;
+	border: solid 2px #eaa258;
+	margin-top: 25px;
+}
+button:hover {
+	cursor:pointer;
+}
+.ba-button-text {
+	font-family: 'Lato', Arial, sans-serif;
+	color: #eaa258;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 34px;
+	text-align: center;
+	white-space: pre;
+}
